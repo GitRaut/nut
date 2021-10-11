@@ -6,6 +6,9 @@ int itc_rev_num(long long number)
     if(number < 0){
         number = number * -1;
     }
+    if(number == 0){
+        return 1;
+    }
     revenbr = 0;
     revers = 0;
     len = 0;
