@@ -1,7 +1,8 @@
 #include "middle.h"
 
 int itc_covert_num(long long number, int ss){
-    int chislo, cif, len = 0, result;
+    int cif;
+    long long result = 0, len = 0, chislo = 0;
     while(number > 0){
         cif = number % ss;
         chislo = chislo * 10 + cif;
