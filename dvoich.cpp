@@ -1,8 +1,8 @@
 #include "middle.h"
 
 long long itc_bin_num(long long number){
-    int chislo, cif, len = 0;
-    long long result = 0;
+    int cif;
+    long long result = 0, chislo = 0, len = 0;
     while(number > 0){
         cif = number % 2;
         chislo = chislo * 10 + cif;
