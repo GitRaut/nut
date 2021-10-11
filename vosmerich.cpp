@@ -1,7 +1,8 @@
 #include "middle.h"
 
 long long itc_oct_num(long long number){
-    int chislo, cif, len = 0, result;
+    int cif;
+    long long result = 0, len = 0, chislo = 0;
     while(number > 0){
         cif = number % 8;
         chislo = chislo * 10 + cif;
