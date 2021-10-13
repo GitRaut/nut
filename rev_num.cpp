@@ -2,7 +2,7 @@
 
 int itc_rev_num(long long number)
 {
-    int revenbr, revers, len;
+    long long revenbr, revers, len;
     if(number < 0){
         number = number * -1;
     }
