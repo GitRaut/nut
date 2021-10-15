@@ -3,7 +3,7 @@
 double itc_pow(int num, int step)
 {
     int result = 1;
-    int chislo = num;
+    long long chislo = num;
     int iterationsCount = step;
     if(iterationsCount < 0){
         iterationsCount = iterationsCount * -1;
