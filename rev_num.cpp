@@ -7,7 +7,7 @@ int itc_rev_num(long long number)
         number = number * -1;
     }
     if(number == 0){
-        return 0;
+        return 1;
     }
     revenbr = 0;
     revers = 0;
