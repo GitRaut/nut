@@ -20,11 +20,14 @@ int itc_second_max_num(long long number){
             second_max = point;
         }
     }
-    if(second_max == 0){
-        return max;
-    }
     if(len == 1){
         return -1;
+    }
+    if(second_max == 0){
+        return 0;
+    }
+    if(second_max == max){
+        return max;
     }
     return second_max;
 }
