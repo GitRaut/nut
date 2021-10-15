@@ -6,7 +6,7 @@ int itc_second_max_num(long long number){
         number = number * -1;
     }
     if(number == 0){
-        return 0;
+        return -1;
     }
     while(number > 0){
         point = number % 10;
