@@ -11,7 +11,6 @@ int itc_second_max_num(long long number){
     while(number > 0){
         point = number % 10;
         number = number / 10;
-        len++;
         if(point >= max){
             second_max = max;
             max = point;
